@@ -56,10 +56,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5Kq-2e-ViU" firstAttribute="centerX" secondItem="6Sp-bm-qjF" secondAttribute="centerX" id="IWL-jF-m8N"/>
+                            <constraint firstItem="6Sp-bm-qjF" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Lop-Bd-00p"/>
                             <constraint firstItem="fC2-a6-SYL" firstAttribute="top" secondItem="Rsq-KN-0k0" secondAttribute="top" id="R6o-r3-hQT"/>
                             <constraint firstItem="5Kq-2e-ViU" firstAttribute="centerX" secondItem="3Sp-rq-TUF" secondAttribute="centerX" id="SdG-6Z-SfC"/>
-                            <constraint firstItem="5Kq-2e-ViU" firstAttribute="centerX" secondItem="fC2-a6-SYL" secondAttribute="centerX" id="owo-X0-c3C"/>
+                            <constraint firstItem="5Kq-2e-ViU" firstAttribute="centerX" secondItem="6Sp-bm-qjF" secondAttribute="centerX" id="cyK-rJ-qci"/>
                             <constraint firstAttribute="centerX" secondItem="fC2-a6-SYL" secondAttribute="centerX" id="y0U-qO-rXh"/>
                             <constraint firstItem="Rsq-KN-0k0" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="zHM-hc-Tr3"/>
                         </constraints>
@@ -67,7 +67,9 @@
                     <connections>
                         <outlet property="answerLabel" destination="5Kq-2e-ViU" id="eYh-YG-ZGZ"/>
                         <outlet property="currentQuestionLabel" destination="fC2-a6-SYL" id="zzb-vR-ahn"/>
+                        <outlet property="currentQuestionLabelCenterXConstraint" destination="y0U-qO-rXh" id="kZL-x6-P62"/>
                         <outlet property="nextQuestionLabel" destination="Rsq-KN-0k0" id="gUT-3x-7gt"/>
+                        <outlet property="nextQuestionLabelCenterXConstraint" destination="zHM-hc-Tr3" id="tkD-Zy-wih"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
