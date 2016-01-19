@@ -156,6 +156,7 @@
 		E0FC01981C4D380D005F0DB8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Sam Agnew";
 				TargetAttributes = {
@@ -409,6 +410,7 @@
 				E0FC01C11C4D380D005F0DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0FC01C21C4D380D005F0DB8 /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +419,7 @@
 				E0FC01C41C4D380D005F0DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
